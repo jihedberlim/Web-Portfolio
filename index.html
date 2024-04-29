@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========================= FLATICON ========================= -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
+    <!-- ========================= CSS ========================= -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Jihed</a>
+
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">
+                            <i class="fi fi-br-home nav-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="fi fi-br-user nav-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <i class="fi fi-br-picture nav-icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fi fi-br-paper-plane nav-icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="fi fi-br-cross nav-close" id="navClose"></i>
+            </div>
+
+            <div class="nav-btns">
+                <div class="nav-toggle" id="navToggle">
+                    <i class="fi fi-br-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="https://www.linkedin.com/in/jihed-elmograbi-berlim" target="_blank" class="home-social-icon">
+                            <i class="fi fi-brands-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/jihedberlim" target="_blank" class="home-social-icon">
+                            <i class="fi fi-brands-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/jihedb_/" target="_blank" class="home-social-icon">
+                            <i class="fi fi-brands-instagram"></i>
+                        </a>
+                    </div>
+    
+                    <div class="home-img">
+                        <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                    <image class="home-blob-img" x="-10" y="25" xlink:href="assets/img/profile.png" />
+                                </g>
+                            </svg>
+                    </div>
+    
+                    <div class="home-data">
+                        <h1 class="home-title">Hey, I'm Jihed</h1>
+                        <h3 class="home-subtitle">Frontend Developer</h3>
+                        <p class="home-description"></p>
+                        <a href="#contact" class="button button-flex">
+                            Contact Me <i class="fi fi-br-comment-dots button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button-flex">
+                        <i class="fi fi-br-mouse home-scroll-mouse"></i>
+                        <span class="home-scroll-name">Scroll down</span>
+                        <i class="fi fi-br-arrow-small-down home-scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================= JAVASCRIPT ========================= -->
+    <script src="script.js"></script>
+</body>
+
+</html>
